@@ -1,0 +1,71 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.a {
+  grid-area: 1 / 1 / span 5 / span 1;
+}
+
+.b {
+  grid-area: 1 / 2 / 1 / span 4;
+}
+
+.c {
+  grid-area: 2 / 2 / 2 / span 4;
+}
+
+.d {
+  grid-area: 3 / 2 /span 3 / span 1;
+}
+
+.e {
+  grid-area: 3 / 4 / span 3 / span 3;
+}
+
+
+body {
+    background: #ebd5b3;
+}
+
+.header {
+    font-family: "IM Fell English SC";
+    font-size: 25px;
+    width: 100%;    
+    }
+
+.topnav {
+    border-top: 5px double black;
+    border-bottom: 5px double black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Brawler;
+}
+
+
+.topnav a:hover {
+    background-color: #f5deb3;
+    color: black;
+}
+
+.topnav .active {
+    background-color: #4CAF50;
+    color: white; 
+}
+
+
+
+p {
+    font-family: Brawler;
+    }
+
