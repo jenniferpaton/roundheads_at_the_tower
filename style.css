@@ -1,27 +1,23 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 3fr;
-  grid-template-rows: 1fr 1fr 3fr;
+  grid-template-rows: 1fr 3fr;
 }
 
 .a {
-  grid-area: 1 / 1 / span 3 / span 1;
+  grid-area: 1 / 1 / span 2 / span 1;
 }
 
 .b {
-  grid-area: 1 / 2 / 1 / span 3;
+  grid-area: 1 / 2 / 1 / span 2;
 }
 
 .c {
-  grid-area: 2 / 2 / 2 / span 3;
+  grid-area: 2 / 2 / 2 / span 1;
 }
 
 .d {
-  grid-area: 3 / 2 /span 3 / span 1;
-}
-
-.e {
-  grid-area: 3 / 3 / span 3 / span 3;
+  grid-area: 2 / 2 / span 1 / span 1;
 }
 
 
