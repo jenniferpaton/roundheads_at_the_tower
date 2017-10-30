@@ -65,3 +65,6 @@ p {
     font-family: Brawler;
     }
 
+@media screen only and (min-width: 480px) and (orientation: landscape){
+
+}
