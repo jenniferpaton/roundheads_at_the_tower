@@ -4,11 +4,11 @@
   grid-template-rows: 1fr 3fr;
 }
 
-.a {
+.b {
   grid-area: 1 / 1 / span 2 / span 1;
 }
 
-.b {
+.a {
   grid-area: 1 / 2 / 1 / span 2;
 }
 
@@ -32,8 +32,8 @@ body {
     }
 
 .topnav {
-    border-top: 5px double black;
-    border-bottom: 5px double black;
+    border-top: 5px single black;
+    border-bottom: 5px single black;
     overflow: hidden;
 }
 
