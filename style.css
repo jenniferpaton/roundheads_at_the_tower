@@ -4,15 +4,15 @@
   grid-template-rows: 1fr 3fr;
 }
 
-.b {
+.a {
   grid-area: 1 / 1 / span 2 / span 1;
 }
 
-.a {
+.c {
   grid-area: 1 / 2 / 1 / span 2;
 }
 
-.c {
+.b {
   grid-area: 2 / 2 / 2 / span 1;
 }
 
