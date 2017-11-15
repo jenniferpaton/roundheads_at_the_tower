@@ -8,11 +8,11 @@
   grid-area: 1 / 1 / span 2 / span 1;
 }
 
-.c {
+.b {
   grid-area: 1 / 2 / 1 / span 2;
 }
 
-.b {
+.c {
   grid-area: 2 / 2 / 2 / span 1;
 }
 
@@ -32,8 +32,8 @@ body {
     }
 
 .topnav {
-    border-top: 5px single black;
-    border-bottom: 5px single black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
     overflow: hidden;
 }
 
