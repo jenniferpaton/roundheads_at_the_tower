@@ -28,7 +28,8 @@ body {
 .header {
     font-family: "IM Fell English SC";
     font-size: 2.25rem;
-    width: 100%;    
+    width: 100%; 
+    border-bottom: 5px solid black;
     }
 
 .topnav {
