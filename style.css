@@ -22,7 +22,7 @@
 
 
 body {
-    background: #f2d6ac;
+    background: #ebd5b3;
 }
 
 .header {
@@ -51,7 +51,7 @@ body {
 
 
 .topnav a:hover {
-    background-color: #f2d6ac;
+    background-color: #ebd5b3;
     color: black;
 }
 
