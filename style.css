@@ -60,7 +60,9 @@ body {
     color: white; 
 }
 
-
+h2 {
+    font-family: "IM Fell English SC";
+}
 
 p {
     font-family: Brawler;
