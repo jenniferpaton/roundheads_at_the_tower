@@ -77,14 +77,3 @@ p {
     font-family: Brawler;
     }
 
-@media screen only and (min-width: 480px) and (orientation: landscape){
-
-}
-
-@media screen only and (min-width: 2500px) and (orientation: landscape){
-.header {
-    font-family: "IM Fell English SC";
-    font-size: 1 rem;
-    width: 100%;    
-    }  
-}
