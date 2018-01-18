@@ -1,31 +1,31 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr 2fr;
+  grid-template-columns: 0.75fr 0.25fr 1fr 2fr 2fr;
   grid-template-rows: 1fr 2.75fr 0.25fr;
 }
 
 .a {
-  grid-area: 1 / 1 / span 2 / span 1;
+  grid-area: 1 / 1 / span 2 / span 2;
 }
 
 .b {
-  grid-area: 1 / 2 / 1 / span 3;
+  grid-area: 1 / 2 / 1 / span 4;
 }
 
 .c {
-  grid-area: 2 / 2 / 2 / span 1;
+  grid-area: 2 / 2 / 2 / span 2;
 }
 
 .d {
-  grid-area: 2 / 3 / span 1 / span 1;
-}
-
-.e {
   grid-area: 2 / 4 / span 1 / span 1;
 }
 
+.e {
+  grid-area: 2 / 5 / span 1 / span 1;
+}
+
 .footer {
-  grid-area: 3 / 1 / span 1 / span 4;
+  grid-area: 3 / 1 / span 1 / span 5;
   font-family: Brawler;
   font-size: 0.75rem; 
 }
