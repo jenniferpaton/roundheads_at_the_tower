@@ -43,6 +43,10 @@ body {
     text-align: center;
     }
 
+.img  {
+  vertical-align: baseline;
+}
+
 .topnav {
     margin: auto;
     border-top: 5px solid black;
