@@ -44,6 +44,7 @@ body {
     }
 
 .topnav {
+    margin: auto;
     border-top: 5px solid black;
     border-bottom: 5px solid black;
     overflow: hidden;
@@ -79,3 +80,4 @@ h2 {
 p {
     font-family: Brawler;
 }
+
