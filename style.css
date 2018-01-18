@@ -50,6 +50,7 @@ body {
 }
 
 .topnav a {
+    float: middle;
     display: block;
     color: #000000;
     text-align: center;
