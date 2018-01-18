@@ -1,13 +1,13 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr 2fr;
+  grid-template-columns: 0.5fr 0.5fr 1fr 2fr 2fr;
   grid-template-rows: 1fr 2.75fr 0.25fr;
 }
 
 /*row/column/row/column*/
 
 .a {
-  grid-area: 1 / 1 / span 2 / span 1;
+  grid-area: 1 / 1 / span 2 / span 2;
 }
 
 .b {
@@ -15,7 +15,7 @@
 }
 
 .c {
-  grid-area: 3 / 2 / span 1 / span 1;
+  grid-area: 3 / 2 / span 2 / span 1;
 }
 
 .d {
