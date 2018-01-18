@@ -48,10 +48,10 @@ body {
     border-top: 5px solid black;
     border-bottom: 5px solid black;
     overflow: hidden;
+    text-align:center;
 }
 
 .topnav a {
-    float: left;
     display: inline-block;
     color: #000000;
     text-align: center;
