@@ -101,4 +101,7 @@ p {
 img.map {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
+    border-style: 5px solid black;
+  
+}
