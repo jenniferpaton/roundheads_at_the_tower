@@ -35,6 +35,11 @@ body {
     background: #ebd5b3;
 }
 
+img {
+    position: absolute;
+    z-index: 10
+}
+
 .header {
     font-family: "IM Fell English SC";
     font-size: 2rem;
@@ -42,10 +47,6 @@ body {
     border-bottom: 5px solid black;
     text-align: center;
     }
-
-.img  {
-  vertical-align: baseline;
-}
 
 .topnav {
     margin: auto;
