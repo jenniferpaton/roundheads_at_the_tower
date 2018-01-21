@@ -103,10 +103,10 @@ div.horizontal {
     justify-content: center;
 }
 
-@media screen and (man-width: 480px) {
+@media screen and (max-width: 480px) {
     .grid {
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 10% 90%;
   grid-template-rows: 15% 30% 50% 5%;
 }
 
