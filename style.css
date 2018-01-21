@@ -35,7 +35,7 @@ body {
     background: #ebd5b3;
 }
 
-header img {
+img {
     position: absolute;
     z-index: 10
 }
