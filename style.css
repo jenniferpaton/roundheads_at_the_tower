@@ -103,11 +103,11 @@ div.horizontal {
     justify-content: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 960px) {
     .grid {
   display: grid;
   grid-template-columns: 10% 90%;
-  grid-template-rows: 15% 30% 50% 5%;
+  grid-template-rows: 15% 20% 30% 30% 5%;
 }
 
 .a {
@@ -115,7 +115,7 @@ div.horizontal {
 }
 
 .b {
-  grid-area: 1 / 1 / 1 / span 2;
+  grid-area: 1 / 2 / 1 / span 2;
 }
 
 .c {
@@ -127,11 +127,11 @@ div.horizontal {
 }
 
 .e {
-  grid-area: 3 / 2 / span 1 / span 1;
+  grid-area: 4 / 2 / span 1 / span 1;
 }
 
 .footer {
-  grid-area: 4 / 1 / span 1 / span 2;
+  grid-area: 5 / 1 / span 1 / span 2;
   font-family: Brawler;
   font-size: 0.75rem; 
   text-align: right;
