@@ -124,6 +124,7 @@ div.horizontal {
 
 .d {
   grid-area: 3 / 2 / span 1 / span 1;
+  margin-bottom: 45px;
 }
 
 .e {
